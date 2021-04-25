@@ -1,8 +1,9 @@
 <br>
-<h1> Cadastrar </h1>
+
+<h1><%= t("title.signup") %> </h1>
 
 <% if @user.errors.any? %>
-  <p>Erro ao salvar</p>
+  <p><%= t("title.error") %></p>
 
   <ul>
     <% @user.errors.full_messages.each do |message| %>
