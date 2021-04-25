@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   root to: "home#show"
 
-  get "/user/new", to: "users#new"
+  get "/users/new", to: "users#new"
   post "/users", to: "users#create"
 
   # login

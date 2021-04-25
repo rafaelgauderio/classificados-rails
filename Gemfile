@@ -20,6 +20,8 @@ gem 'bcrypt', '~> 3.1.7'
 
 
 gem 'bootsnap', '>= 1.4.4', require: false
+gem 'rails-i18n'
+
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
