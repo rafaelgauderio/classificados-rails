@@ -8,5 +8,5 @@ Rails.application.routes.draw do
 
   # login
 #get "/sessions/new", to: "sessions#new"
-  resources :sessions, only: [:new]
+  resources :sessions, only: [:new, :create]
 end
