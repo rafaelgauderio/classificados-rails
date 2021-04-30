@@ -11,6 +11,6 @@ class ApplicationController < ActionController::Base
     end
   
     def require_logged_user
-      redirect_to new_session_path, alert: "Você precisa estar logado para entrar nessa tela" unless user_signed_in?
+      redirect_to new_session_path, alert: "Você precisa estar logado para acessar essa tela" unless user_signed_in?
     end
   end
